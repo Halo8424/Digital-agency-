@@ -215,15 +215,15 @@ a {
   background: #fd4516;
 }
 
-.btn--outline{
-    background: #fff;
-    color:var(--color-headings);
-    border: 2px solid var(--color-headings);
+.btn--outline {
+  background: #fff;
+  color: var(--color-headings);
+  border: 2px solid var(--color-headings);
 }
 
-.btn--outline:hover{
-    background: var(--color-headings);
-    color: #fff;
+.btn--outline:hover {
+  background: var(--color-headings);
+  color: #fff;
 }
 
 .btn--block {
@@ -231,8 +231,28 @@ a {
   display: inline-block;
 }
 
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* Inputs */
+.input {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
 @media screen and (min-width: 1024px){
-    .btn{
+    .input{
         font-size: 1.5rem;
     }
 }
