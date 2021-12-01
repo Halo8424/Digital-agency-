@@ -475,12 +475,16 @@ a {
 }
 
 .testimonial__image > .icon-container{
+    visibility: hidden; 
     position: absolute;
     top: 3rem;
     right: -32px;
 }
 
 @media screen and (min-width: 768px){
+    .testimonial__image > .icon-container{
+        visibility: visible; 
+    }
     .testimonial .quote,
     .testimonial .quote__author
     {
